@@ -1,0 +1,35 @@
+[project]
+name = "da-phone-pe"
+version = "0.1.0"
+description = "Add your description here"
+authors = [{ name = "chetan chandel", email = "chetanchandel3@gmail.com" }]
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "matplotlib>=3.11.1",
+    "numpy>=2.4.6",
+    "openpyxl>=3.1.5",    # pd.read_excel() doesn't work without it
+    "pandas>=3.0.5",
+    "seaborn>=0.13.2",
+]
+
+[project.scripts]
+da-phone-pe = "da_phone_pe:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+# indent-width = 2
+# Set the line length for both the linter and formatter
+line-length = 100
+
+[tool.ruff.format]
+indent-style = "space"
+# Optional: Set a lenient warning threshold for the line-too-long rule (E501)
+[tool.ruff.lint.pycodestyle]
+max-line-length = 100
