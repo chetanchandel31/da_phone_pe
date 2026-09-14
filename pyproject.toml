@@ -10,6 +10,7 @@ dependencies = [
     "numpy>=2.4.6",
     "openpyxl>=3.1.5",    # pd.read_excel() doesn't work without it
     "pandas>=3.0.5",
+    "scipy>=1.17.1",
     "seaborn>=0.13.2",
 ]
 
