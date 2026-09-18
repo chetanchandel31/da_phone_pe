@@ -76,7 +76,7 @@ The project uses Python visualization libraries to explore trends and comparison
 
 Visualizations are accompanied by short observations highlighting notable patterns and anomalies in the data.
 
-## **Key Findings:**
+## **Key Findings**
 
 - **Growth**: Transactions, Amount, and Registered Users all grew consistently from 2018 to mid-2021, consistent with broader UPI adoption in India, with a temporary dip around Q2-2020 followed by a steep rise which aligns with pandemic-driven digital payments growth.
 
@@ -91,7 +91,7 @@ Visualizations are accompanied by short observations highlighting notable patter
 - **Density vs. transaction volume**: Population density and transaction volume show a real but non-linear relationship, Pearson correlation is weak (0.25) due to outlier districts, but Spearman (0.45, moderate) and the log-log scatter plot (clear upward trend) both indicate density does relate to volume once outliers and scale are accounted for (Task 4.2).
 - **Data gaps**: `App Opens` wasn't tracked before Q2-2019. A small number of low-population districts (e.g., Anjaw, Shi Yomi) show genuinely low/no transaction activity rather than missing data (Task 1.5).
 
-## **Recommendations:**
+## **Recommendations**
 
 - **Target underperforming states/districts**: States/districts with low transaction volume or low users-to-population ratio (identified in Tasks 2.1, 4.1) are candidates for focused marketing or merchant-onboarding pushes.
 - **Invest in both P2P and Merchant infrastructure, with different priorities**: P2P dominates transaction amount nationwide (higher-value transfers), while Merchant payments is comparable or even leads by transaction-count in some states/quarters (e.g. Karnataka, Task 5.2) and shows strong growth (Task 6.1). 
