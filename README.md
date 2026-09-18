@@ -86,9 +86,12 @@ Visualizations are accompanied by short observations highlighting notable patter
   The nationwide breakdown (Task 6.1) shows a similar overall pattern, with Peer-to-peer and Merchant payments as the two largest categories across all states.
 
   P2P transactions also consistently have a much higher ATV than Merchant transactions, despite their relatively similar transaction counts. This difference contributes to fluctuations in the overall ATV, particularly during the earlier years of the dataset (Task 6.1).
-- **Device usage**: Xiaomi is the top device brand by registered users in nearly every state (35/36), with Samsung leading only in Sikkim (Task 2.3).
+  ![Nationwide transaction count breakdown by type](assets/nationwide-txn-count-breakdown-by-txn-type.png)
+- **Device usage**: Xiaomi is the top device brand by registered users in nearly every state (35/36), with Samsung leading only in Sikkim (Task 2.3 and Task 4.4.3).
+![Device brand usage ratio by state](assets/device-brand-usage-ratio-by-state.png)
 - **State-level disparities**: Top and bottom states by transaction volume, ATV, and users/population ratio differ significantly, indicating uneven regional adoption (Tasks 2.1, 2.5, 4.1).
 - **Density vs. transaction volume**: Population density and transaction volume show a real but non-linear relationship, Pearson correlation is weak (0.25) due to outlier districts, but Spearman (0.45, moderate) and the log-log scatter plot (clear upward trend) both indicate density does relate to volume once outliers and scale are accounted for (Task 4.2).
+![Density vs. transaction volume](assets/density-and-transaction-volume-scatter-plot.png)
 - **Data gaps**: `App Opens` wasn't tracked before Q2-2019. A small number of low-population districts (e.g., Anjaw, Shi Yomi) show genuinely low/no transaction activity rather than missing data (Task 1.5).
 
 ## **Recommendations**
